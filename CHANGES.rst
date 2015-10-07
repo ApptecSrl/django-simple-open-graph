@@ -1,6 +1,12 @@
 
 Changes
 =======
+0.4 (2015-10-07)
+----------------
+
+* fix PEP8
+* fix SITE_DOMAIN error
+* fix attempt to split a int
 
 0.3 (2012-09-28)
 ----------------
