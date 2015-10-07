@@ -26,7 +26,6 @@ class OpenGraphNode(template.Node):
 
     def render(self, context):
         self.site_domain = getattr(settings, "SITE_DOMAIN", None) or Site.objects.get_current().domain
-        print self.site_domain
         list_keys = []
         result_list = []
         for key, value in self.properties.items():

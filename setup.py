@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name='django-simple-open-graph',
-    version='0.4',
+    version='0.4.1',
     license='ISC',
     description='Django package for simplicity embed open graph (og:) '
                 'layout in templates for different objects',
