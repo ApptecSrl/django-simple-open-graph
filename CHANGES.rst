@@ -1,6 +1,11 @@
 
 Changes
 =======
+1.0.0 (2016-06-07)
+----------------
+
+* Extended support to all tags. must be written completely (es. "product:original_price:amount" or "og:url")
+
 0.4.1 (2015-10-07)
 ----------------
 

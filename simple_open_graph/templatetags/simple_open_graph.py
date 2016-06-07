@@ -43,7 +43,7 @@ class OpenGraphNode(template.Node):
             value = template.Variable(value).resolve(context)
         except template.base.VariableDoesNotExist:
             pass
-        og_layout = u'<meta property="og:{0}" content="{1}" />'
+        og_layout = u'<meta property="{0}" content="{1}" />'
         if isinstance(value, str):
             value = value.replace('"', ' ')
         key = key.replace('"', '')
