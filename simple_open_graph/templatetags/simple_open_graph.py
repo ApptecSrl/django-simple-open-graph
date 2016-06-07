@@ -48,7 +48,7 @@ class OpenGraphNode(template.Node):
             value = value.replace('"', ' ')
         key = key.replace('"', '')
         # fix absolute links
-        if key in [u'url', u'image', u'audio', u'video'] and value and value[0] == u'/':
+        if key in [u'og:url', u'og:image', u'og:audio', u'og:video'] and value and value[0] == u'/':
             value = u'http://{0}{1}'.format(self.site_domain, value)
         og_formatted = og_layout.format(key, value)
         return og_formatted
